@@ -3,10 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arakkha Tech</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <p class="text-red-600 text-center">Hello World</p>
-</body>
+<body class="bg-gray-50">
+
+    <!-- Fixed Navigation Bar -->
+    <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100 shadow-sm"> 
+        <div class="max-w-7xl mx-auto px-4">
+            <nav class="flex justify-between items-center w-full py-4">
+                <h1 class="text-2xl font-extrabold">အာရက္ခ<span class="text-purple-600">နည်းပညာ</span></h1>
+
+                <ul class="flex gap-6 text-md font-bold text-black items-center">
+                    <li><a href="#" class="text-purple-600">သင်တန်းများ</a></li>
+                    <li><a href="#" class="hover:text-purple-600">သင်တန်းဆရာများ</a></li>
+                    <li><a href="#" class="hover:text-purple-600">စာအုပ်စင်</a></li>
+                    <li><a href="#" class="bg-purple-600 text-white px-5 py-2.5 rounded-full hover:bg-purple-700 transition">စတင်ရန်</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (pt-28 ထည့်ထားသောကြောင့် Navbar အောက်ရောက်မသွားပါ) -->
+    <section class="max-w-7xl mx-auto px-4 pt-28 pb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <p class="text-purple-600 font-semibold bg-purple-50 inline-block px-4 py-1.5 rounded-full border border-purple-100 text-sm">
+                    ✨ အဂုကပင် စတင်လိလာလိုက်ပါ
+                </p>
+                <h1 class="text-6xl font-extrabold text-gray-900 leading-tight">
+                    Upgrade Your <span class="text-purple-600">Career</span>
+                </h1>
+                <p class="text-lg text-gray-500 leading-relaxed">
+                    အာရက္ခနည်းပညာသည် ခေတ်မီနည်းပညာများကို အာရက္ခဘာသာဖြင့် အခြီခံမှစ၍ လက်တွိကျကျ သင်ကြားပီးနိန်သော platform ဖြစ်ပါသည်။
+                </p>
+                
+                <div class="flex items-center gap-4 pt-2">
+                    <button class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-xl shadow-md transition cursor-pointer">
+                        သင်တန်းများကြည့်ရန်
+                    </button>
+                    <button class="bg-white border border-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-xl shadow-sm hover:bg-gray-50 flex items-center gap-2 transition cursor-pointer">
+                        <span>▶</span> Video Preview
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-center">
+                <img src="./images/images (1).jpg" alt="Arakkha Tech Code" class="rounded-2xl w-full max-w-lg shadow-xl">
+            </div>
+        </div>
+    </section> 
+
+    <!-- Stats Section -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-start gap-4 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-5xl font-extrabold text-purple-600 mb-2">1</h3>
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Active Students</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-start gap-4 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-2xl bg-fuchsia-50 flex items-center justify-center text-fuchsia-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-5xl font-extrabold text-purple-600 mb-2">1</h3>
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Total Courses</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-start gap-4 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-50 flex items-center justify-center text-emerald-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 18c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v2h16v-2zM12 14c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 4z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-5xl font-extrabold text-purple-600 mb-2">1</h3>
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Expert Instructors</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col items-start gap-4 hover:shadow-md transition">
+                <div class="w-12 h-12 rounded-2xl bg-amber-50 flex items-center justify-center text-amber-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5s.67 1.5 1.5 1.5zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-5xl font-extrabold text-purple-600 mb-2">98%</h3>
+                    <p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Satisfaction Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Arakkha Tech Section -->
+    <section class="max-w-7xl mx-auto px-4 py-12">
+        <div class="text-center space-y-3 mb-12">
+            <span class="text-xs font-bold text-indigo-600 tracking-widest uppercase">
+                WHY ARAKKHA TECH?
+            </span>
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900">
+                ကရို့၏ ထူးခြားချက်များ
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300 flex flex-col items-start text-left">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M13.13 2.21a1 1 0 0 0-1.26 0C8.36 4.9 3.5 10.3 3.5 15.5c0 3.03 2.47 5.5 5.5 5.5 2.12 0 4-1.2 4.9-3 1 .05 1.22 0 2.1 0 3.03 0 5.5-2.47 5.5-5.5 0-5.2-4.86-10.6-8.37-13.29zM12 18a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">အယင်ဆုံး သင်ယူမှု</h3>
+                <p class="text-gray-500 text-base leading-relaxed">စနစ်ကျသော roadmap များဖြင့် အချိန်တိုအတွင်း တတ်မြောက်စီရမည်။</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300 flex flex-col items-start text-left">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2l2.4 3.6 4.3-.6-1.1 4.2 3.4 2.8-3.4 2.8 1.1 4.2-4.3-.6L12 22l-2.4-3.6-4.3.6 1.1-4.2-3.4-2.8 3.4-2.8-1.1-4.2 4.3.6L12 2z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">လက်မှတ်ရရှိခြင်း</h3>
+                <p class="text-gray-500 text-base leading-relaxed">သင်တန်းပြီးဆုံးပါက အရည်အသွေးမီ လက်မှတ်များကို ထုတ်ပေးပါသည်။</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition duration-300 flex flex-col items-start text-left">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-3">Community Support</h3>
+                <p class="text-gray-500 text-base leading-relaxed">သင်တန်းသားအချင်းချင်း ဆွေးနွေးနိုင်သည့် community ဟိပါသည်။</p>
+            </div>
+        </div>
+    </section>
+
+</body> 
 </html>
